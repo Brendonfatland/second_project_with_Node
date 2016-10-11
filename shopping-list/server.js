@@ -12,7 +12,6 @@ var Storage = {
   delete: function(id){
     var index = this.items.indexOf(id);
     this.items.splice(index, 1);
-    console.log(index);
     return this.items;
   },
   put: function(id, name){
